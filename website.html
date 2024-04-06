@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Youtube</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <style>
+        p{
+            font-family: roboto;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        
+        .search-bar{
+            margin-left: 20px;
+            font-size: 20px;
+            padding: 10px;
+            border-radius: 50px;
+            box-shadow: 2px 2px 8px 5px rgb(191, 191, 191);
+            border: solid;
+            border-width: 1px;
+            display: block;
+            margin-bottom: 15px;
+ 
+            color: white;
+        }
+
+        .video-preview{
+            width:350px;
+            height: 400px;
+            display:inline-block;
+            vertical-align: top;
+            margin-right: 15px;
+        }
+
+        .gambar-thumbnail{
+            width: 350px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 20px;
+            vertical-align: middle;
+            margin-bottom: 10px;
+        }
+
+        .judul-video{
+            vertical-align: top;
+            font-weight: 700;
+            margin-top: 0px;
+            line-height: 20px;
+            margin-bottom: 12px;
+        }
+
+        .foto-channel{
+            display: inline-block;
+            vertical-align: top;
+            width: 50px;
+            height: 100px;
+        }
+
+        .video-info{
+            display: inline-block;
+            width: 280px;
+            margin-left: 5px;
+        }
+
+        .profile-picture{
+            border-radius: 50%;
+            width: 50px;
+        }
+
+        .pembuat-video,
+        .jumView-video{
+            font-size: 12px;
+            color: rgb(170, 170, 170);
+        }
+    </style>
+</head>
+
+<body>
+    
+    <input class="search-bar" type="text" placeholder="Telusuri"> 
+    <div class="video-preview">
+        <div>
+            <img class="gambar-thumbnail" src="thumbnail/vid1.webp">
+        </div>
+        <div>
+            <div class="foto-channel">
+                <img class="profile-picture" src="profil/profil1.jpg">
+            </div>
+            <div class="video-info">
+                <p class="judul-video">Nex Carlos Pernah Review Makanan Gak Enak⁉️ - Tahan Sabar</p>
+                <p class="pembuat-video">Tretan Universe</p>
+                <p class="jumView-video">4,3 rb x ditonton &#8226; 1 jam yang lalu</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-preview">
+        <div>
+            <img class="gambar-thumbnail" src="thumbnail/vid2.webp">
+        </div>
+        <div>
+            <div class="foto-channel">
+                <img class="profile-picture" src="profil/profil2.jpg">
+            </div>
+            <div class="video-info">
+                <p class="judul-video">HTML & CSS Full Course - Beginner to Pro</p>
+                <p class="pembuat-video">SuperSimpleDev</p>
+                <p class="jumView-video">9,3 jt x ditonton &#8226; 2 tahun yang lalu</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
